@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --color-red: #f03c42;
+  --bg-blue: #222374;
+  --text-white: #ffffff;
+  --bg-light-gray: #cccccc;
+  --bg-black: #000000;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
+header {
+  background-color: var(--color-red);
+  color: var(--text-white);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 35px 15px;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  font-size: 14px;
+}
+
+nav img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+#espaco {
+  background-color: var(--bg-blue);
+  height: 418px;
+  padding: 20px 15px;
+}
+
+#espaco h2 {
+  font-size: 32px;
+  color: var(--text-white);
+  margin-bottom: 40px;
+}
+
+.espaco-card {
+  height: 127px;
+  background-color: var(--bg-light-gray);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.espaco-card h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.espaco-card p {
+  font-size: 14px;
+}
+
+#modalidades {
+  padding: 20px 15px;
+  height: 880px;
+}
+
+#modalidades h2 {
+  font-size: 32px;
+  color: var(--color-red);
+  margin-bottom: 40px;
+}
+
+.modalidade-card {
+  height: 106px;
+  background-color: var(--bg-blue);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.modalidade-card h3 {
+  font-size: 20px;
+  color: var(--text-white);
+  margin-bottom: 20px;
+}
+
+.modalidade-card p {
+  font-size: 14px;
+  color: var(--bg-light-gray);
+}
+
+footer {
+  height: 262px;
+  background-color: var(--bg-black);
+  color: var(--text-white);
+  padding: 60px 15px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-links-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+  width: 130px;
+}
+
+.footer-links-container img {
+  width: 30px;
+}
+
+.footer-links-container-link {
+  margin-left: 10px;
+  width: 20px;
+}
+
+.footer-rights-addres-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
